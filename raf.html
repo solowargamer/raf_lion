@@ -311,7 +311,7 @@
         if ($("#patch").prop("checked"))
             iShiftedValue--;
         if ($("#broken").prop("checked"))
-            iShiftedValue += 2;
+            iShiftedValue -= 2;
 
         if (iShiftedValue > +iColValue + +3)
             iShiftedValue = +iColValue + +3;
